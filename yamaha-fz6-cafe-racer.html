@@ -4,1068 +4,444 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
-	<title>Yamaha Fz6 Cafe Racer | Best Cafe Racer Motor Picture & Customs Design - Best Modern &amp; Clasic Cafe Racer Customs</title>
-	<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<title>Yamaha Fz6 Cafe Racer</title>
+	<!-- Histats.com  START (hidden counter) -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4442801&101" alt="" border="0">
+<!-- Histats.com  END  -->
+
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Yamaha Fz6 Cafe Racer",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-10-06",
+	  "image" : "https://i.pinimg.com/originals/37/c2/9c/37c29ce255074481fdbdf9aeaa610a2e.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "https://caferacer-curve.netlify.app/honda-cb900-cafe-racer-kit.html",
+	  	  "publisher" : {
+	  	    "@type"" : "Organization",
+	    "name" : "Best Modern &amp; Clasic Cafe Racer Customs"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
 </head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">Best Modern &amp; Clasic Cafe Racer Customs</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Best Modern &amp; Clasic Cafe Racer Customs" class="navbar-brand mb-1">Best Modern &amp; Clasic Cafe Racer Customs</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Yamaha Fz6 Cafe Racer</h1>
 
 	
-	<div class="navi text-left">
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-danger" href="/honda-cb900-cafe-racer.html">honda cb900 cafe racer</a>
+											<a class="badge badge-success" href="/vespa-spint-notte.html">vespa spint notte</a>
+											<a class="badge badge-warning" href="/honda-cargo-150-modificada.html">honda cargo 150 modificada</a>
+											<a class="badge badge-primary" href="/kymco-venox-250-for-sale.html">kymco venox 250 for sale</a>
+											<a class="badge badge-info" href="/1979-kawasaki-kz750-cafe-racer.html">1979 kawasaki kz750 cafe racer</a>
+											<a class="badge badge-light" href="/1981-honda-cb900-cafe-racer.html">1981 honda cb900 cafe racer</a>
+											<a class="badge badge-light" href="/moto-honda-c70-modificada.html">moto honda c70 modificada</a>
+											<a class="badge badge-secondary" href="/honda-cb900-cafe-racer-kit.html">honda cb900 cafe racer kit</a>
+						</div>
 
-						
+						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+<div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3.bp.blogspot.com/-u-eWut1FtL0/V0yNyHGb-aI/AAAAAAACW5w/T5AykxxIn7cwuUmWW_z21W8zG1QEhMTUgCLcB/s1600/fazer-001.jpg" target="_blank">
-							<img class="img-fluid" src="https://3.bp.blogspot.com/-u-eWut1FtL0/V0yNyHGb-aI/AAAAAAACW5w/T5AykxxIn7cwuUmWW_z21W8zG1QEhMTUgCLcB/s1600/fazer-001.jpg" alt="Fzs Cafe Racer Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fzs Cafe Racer Rocketgarage Cafe Racer Magazine</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c1/a5/28/c1a5281f45e9c2e1f25620bab7d9a35e.jpg" data-lightbox="roadtrip" data-title="Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c1/a5/28/c1a5281f45e9c2e1f25620bab7d9a35e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer.jpg">Download</button>
 					</div>
+										<h3 class="h6">Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ae01.alicdn.com/kf/H361507414e97420398522f91fcf3b76av/Motorcycle-exhaust-Pipe-mufler-Escape-Moto-For-yamaha-fz6-s2-cafe-racer-bmw-honda-sh-suzuki.jpg_q50.jpg" target="_blank">
-							<img class="img-fluid" src="https://ae01.alicdn.com/kf/H361507414e97420398522f91fcf3b76av/Motorcycle-exhaust-Pipe-mufler-Escape-Moto-For-yamaha-fz6-s2-cafe-racer-bmw-honda-sh-suzuki.jpg_q50.jpg" alt="Motorcycle Exhaust Pipe Mufler Escape Moto For Yamaha Fz6 S2 Cafe Racer Bmw Honda Sh Suzuki Katana 750 Yamaha V Star 1100 Aliexpress" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Motorcycle Exhaust Pipe Mufler Escape Moto For Yamaha Fz6 S2 Cafe Racer Bmw Honda Sh Suzuki Katana 750 Yamaha V Star 1100 Aliexpress</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5705.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5705.jpg" alt="Yamaha Xj Cafe Racer Eight Ball Gazzz Garage" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Xj Cafe Racer Eight Ball Gazzz Garage</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/c1/a5/28/c1a5281f45e9c2e1f25620bab7d9a35e.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/c1/a5/28/c1a5281f45e9c2e1f25620bab7d9a35e.jpg" alt="Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fz6 Fazer Yamaha Cafe Racer Cafe Racer Yamaha Fazer Racer</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.cycleworld.com/resizer/XlzPitMcWWVKvhO1OrCklZCyS4U=/760x544/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/DTSDGRXZWBC5VIGACJCZN2FT6A.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.cycleworld.com/resizer/XlzPitMcWWVKvhO1OrCklZCyS4U=/760x544/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/DTSDGRXZWBC5VIGACJCZN2FT6A.jpg" alt="Project Recycle Yamaha Fz6 Cycle World" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Project Recycle Yamaha Fz6 Cycle World</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/93/62/74/93627452a6169520193a281b144d1401.jpg" data-lightbox="roadtrip" data-title="Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Caferacer Street For The Best Moto En 2020 Voitures Et Motos Motos Retro Moto Voiture">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/93/62/74/93627452a6169520193a281b144d1401.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Caferacer Street For The Best Moto En 2020 Voitures Et Motos Motos Retro Moto Voiture">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Caferacer Street For The Best Moto En 2020 Voitures Et Motos Motos Retro Moto Voiture.jpg">Download</button>
 					</div>
+										<h3 class="h6">Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Caferacer Street For The Best Moto En 2020 Voitures Et Motos Motos Retro Moto Voiture</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://c-racer.com/store/pub/media/catalog/category/BMW-K75-K100_1.jpg" target="_blank">
-							<img class="img-fluid" src="https://c-racer.com/store/pub/media/catalog/category/BMW-K75-K100_1.jpg" alt="Bolt On For Bmw K75 And Bmw K100 For Cafe Racer And Scrambler" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bolt On For Bmw K75 And Bmw K100 For Cafe Racer And Scrambler</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/236x/03/c6/32/03c6326a0e074be5d5948ec8de4e1fb5--modern-cafe-cafe-racer-magazine.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/236x/03/c6/32/03c6326a0e074be5d5948ec8de4e1fb5--modern-cafe-cafe-racer-magazine.jpg" alt="67 Best Fzs600 Modified Images Cafe Racer Yamaha Fazer Yamaha" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>67 Best Fzs600 Modified Images Cafe Racer Yamaha Fazer Yamaha</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/05/06/00/24/yamaha-fz-yamaha-600-fazer-cafe-racer-a2_100338267.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/05/06/00/24/yamaha-fz-yamaha-600-fazer-cafe-racer-a2_100338267.jpg" alt="Yamaha Yamaha 600 Fazer Cafe Racer A2 Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha 600 Fazer Cafe Racer A2 Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3></h3>
-					<p class="text-center"><img src="https://kickstart.bikeexif.com/wp-content/uploads/2017/01/custom-yamaha-fzs600-fazer-5.jpg" style="margin-bottom: 8px;"></p>
-
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/new-9.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/new-9.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/a5/5c/60/a55c60dc4154c58ad244897dd3926c58.jpg" data-lightbox="roadtrip" data-title="Yamaha Fz6 Cafe Racer">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/a5/5c/60/a55c60dc4154c58ad244897dd3926c58.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Yamaha Fz6 Cafe Racer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Yamaha Fz6 Cafe Racer.jpg">Download</button>
 					</div>
+										<h3 class="h6">Yamaha Fz6 Cafe Racer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/f4/30/b8/f430b828c77b5cb849b278cb3096a9cb.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/f4/30/b8/f430b828c77b5cb849b278cb3096a9cb.jpg" alt="Planning On Making A Cafe Racer Looking To Bounce Some Ideas Get Some Input Yamaha Fz6 Forums International Fz6 Motorcycl Honda Bobber Honda Honda Cx500" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Planning On Making A Cafe Racer Looking To Bounce Some Ideas Get Some Input Yamaha Fz6 Forums International Fz6 Motorcycl Honda Bobber Honda Honda Cx500</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/O8mVGjz_Xoo/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/O8mVGjz_Xoo/maxresdefault.jpg" alt="Fz6 Cafe Racer Partie 2 Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fz6 Cafe Racer Partie 2 Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sportbikes.net/attachments/p1110354-resize-jpg.185602/" target="_blank">
-							<img class="img-fluid" src="https://www.sportbikes.net/attachments/p1110354-resize-jpg.185602/" alt="All Fz6 Riders Show Us Your Bike Page 74 Sport Bikes" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>All Fz6 Riders Show Us Your Bike Page 74 Sport Bikes</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/07/11/15/37/yamaha-fz-yamaha-fz6-cafe-racer-ref-ls1522_102945484.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/07/11/15/37/yamaha-fz-yamaha-fz6-cafe-racer-ref-ls1522_102945484.jpg" alt="Yamaha Yamaha Fz6 Cafe Racer Ref Ls1522 Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha Fz6 Cafe Racer Ref Ls1522 Used The Parking Motorcycles</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/3c/8f/27/3c8f275d2466d4a235de8ce7316d64ce.jpg" data-lightbox="roadtrip" data-title="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Cafe Racer">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/3c/8f/27/3c8f275d2466d4a235de8ce7316d64ce.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Cafe Racer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Cafe Racer.jpg">Download</button>
 					</div>
+										<h3 class="h6">Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Cafe Racer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5846.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5846.jpg" alt="Yamaha Xj Cafe Racer Eight Ball Gazzz Garage" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Xj Cafe Racer Eight Ball Gazzz Garage</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.motoforzafairings.com/data/imgauto/2/0/honda_cbx1000_cafe_Racer_motoforza_cafe_Racer_seat_carbon2.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.motoforzafairings.com/data/imgauto/2/0/honda_cbx1000_cafe_Racer_motoforza_cafe_Racer_seat_carbon2.jpg" alt="Uni Seat Cafe Racer Version 6 Motoforza" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Uni Seat Cafe Racer Version 6 Motoforza</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/zk_NS6HpmB8/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/zk_NS6HpmB8/maxresdefault.jpg" alt="Fz 600 Cafe Racer By Dr Ramdane Noureddine Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fz 600 Cafe Racer By Dr Ramdane Noureddine Youtube</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.600riders.com/proxy.php?image=http%3A%2F%2Fwww.blessthisstuff.com%2Fimagens%2Fstuff%2Fimg_docs_chops_yamaha_virago_3.jpg&amp;hash=caf9c8075f64cf25b88f8ec8ce686609" target="_blank">
-							<img class="img-fluid" src="https://www.600riders.com/proxy.php?image=http%3A%2F%2Fwww.blessthisstuff.com%2Fimagens%2Fstuff%2Fimg_docs_chops_yamaha_virago_3.jpg&amp;hash=caf9c8075f64cf25b88f8ec8ce686609" alt="Sweet Cafe Racer Yamaha Fz6 Forums Fz6 Motorcycle Enthusiasts Forum" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sweet Cafe Racer Yamaha Fz6 Forums Fz6 Motorcycle Enthusiasts Forum</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/bc/4c/70/bc4c705e26f6534da57226d4960205cd.jpg" data-lightbox="roadtrip" data-title="Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/bc/4c/70/bc4c705e26f6534da57226d4960205cd.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer.jpg">Download</button>
 					</div>
+										<h3 class="h6">Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2020/03/15/21/02/yamaha-fz-600-fazer-cafe-racer-noir_126707188.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2020/03/15/21/02/yamaha-fz-600-fazer-cafe-racer-noir_126707188.jpg" alt="Yamaha 600 Fazer Cafe Racer Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha 600 Fazer Cafe Racer Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.motorcyclesupermarket.com/images/bikes/images/6418426.XV950CR_1.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.motorcyclesupermarket.com/images/bikes/images/6418426.XV950CR_1.jpg" alt="New Yamaha Xv 950 Cafe Racer Motorcycle For Sale In Fife 6418426" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>New Yamaha Xv 950 Cafe Racer Motorcycle For Sale In Fife 6418426</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/300472344/suzuki-gs750e-cafe-racer.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/300472344/suzuki-gs750e-cafe-racer.jpg" alt="Suzuki Gs750e Cafe Racer Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Suzuki Gs750e Cafe Racer Caferacerwebshop Com</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.caferacerworld.com/wp-content/uploads/2019/10/yamaha-fazer-scrambler-lord-drake-kustoms-8.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.caferacerworld.com/wp-content/uploads/2019/10/yamaha-fazer-scrambler-lord-drake-kustoms-8.jpg" alt="Yamaha Archivos Cafe Racer World" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Archivos Cafe Racer World</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/a1/59/d6/a159d688ffdf7c2b70df10ee5fdfd83e.jpg" data-lightbox="roadtrip" data-title="Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/a1/59/d6/a159d688ffdf7c2b70df10ee5fdfd83e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped.jpg">Download</button>
 					</div>
+										<h3 class="h6">Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.xs400.com/media/174/full" target="_blank">
-							<img class="img-fluid" src="http://www.xs400.com/media/174/full" alt="For Sale Nice 82 Xs 400 Cafe Racer Lower Price Yamaha Xs400 Forum" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>For Sale Nice 82 Xs 400 Cafe Racer Lower Price Yamaha Xs400 Forum</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/93/62/74/93627452a6169520193a281b144d1401.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>More Cafe Racer:</strong>
+						<li class="list-group-item"><a href="/honda-cb900-cafe-racer-kit.html">Yamaha Fz6 Cafe Racer</a></li>
+						<li class="list-group-item"><a href="/honda-cb900-cafe-racer-kit.html">Honda Cb900 Cafe Racer Kit</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-10-06">2020-10-06</time>
+						<meta itemprop="dateModified" content="2020-10-06">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by John Wick" rel="author">John Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/IK_I0kQ75e4/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/IK_I0kQ75e4/maxresdefault.jpg" alt="New Yamaha Fz6 Cafe Racer New Yamaha Fz6 Red Cheek Custom By North East Custom Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>New Yamaha Fz6 Cafe Racer New Yamaha Fz6 Red Cheek Custom By North East Custom Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/O-VFEJugsyA/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/O-VFEJugsyA/maxresdefault.jpg" alt="1998 Yamaha Fazer 600 Street Fighter Cafe Racer Conversion Final Presentation Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1998 Yamaha Fazer 600 Street Fighter Cafe Racer Conversion Final Presentation Youtube</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lorddrakekustoms.com/wp-content/uploads/2019/09/yamaha-fazer-fz6-03.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.lorddrakekustoms.com/wp-content/uploads/2019/09/yamaha-fazer-fz6-03.jpg" alt="First Images Of Our Customized Yamaha Fazer Fz6 Lord Drake Kustoms" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>First Images Of Our Customized Yamaha Fazer Fz6 Lord Drake Kustoms</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f4/a9/41/f4a9416f4e3cfc8408abacaed4954520.jpg" data-lightbox="roadtrip" data-title="Custom Yamaha Fz6 By Smoked Garage In 2020 Cafe Racer Yamaha Fz Yamaha">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f4/a9/41/f4a9416f4e3cfc8408abacaed4954520.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Custom Yamaha Fz6 By Smoked Garage In 2020 Cafe Racer Yamaha Fz Yamaha">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Custom Yamaha Fz6 By Smoked Garage In 2020 Cafe Racer Yamaha Fz Yamaha.jpg">Download</button>
 					</div>
+										<h3 class="h6">Custom Yamaha Fz6 By Smoked Garage In 2020 Cafe Racer Yamaha Fz Yamaha</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://lh5.ggpht.com/_D8thtzCsEqs/S8hegEIwuoI/AAAAAAAAAnM/X5N-DL2fdzI/s800/IMG_1006-1.JPG" target="_blank">
-							<img class="img-fluid" src="http://lh5.ggpht.com/_D8thtzCsEqs/S8hegEIwuoI/AAAAAAAAAnM/X5N-DL2fdzI/s800/IMG_1006-1.JPG" alt="Goldwing Cafe Racer W Pics Total Motorcycle Community Forums" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Goldwing Cafe Racer W Pics Total Motorcycle Community Forums</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/09/26/12/04/yamaha-fz-cafe-racer-600-fazer_107061669.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/09/26/12/04/yamaha-fz-cafe-racer-600-fazer_107061669.jpg" alt="Yamaha Cafe Racer 600 Fazer De Segunda Mano El Parking" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Cafe Racer 600 Fazer De Segunda Mano El Parking</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/cd/64/21/cd6421077b1bf43b12d4de62689b2fb7.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/cd/64/21/cd6421077b1bf43b12d4de62689b2fb7.jpg" alt="Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Bike Exif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Bike Exif</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/313113672/bmw-r100rt-cafe-racer.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/313113672/bmw-r100rt-cafe-racer.jpg" alt="Bmw R100rt Cafe Racer For Sale Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bmw R100rt Cafe Racer For Sale Caferacerwebshop Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/3d/25/a4/3d25a4f2cdde9dcd9316fb3fb04dc324.jpg" data-lightbox="roadtrip" data-title="Yamaha Fz6 Scrambler Buscar Con Google Motorsiklet Kask Motosikletler">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/3d/25/a4/3d25a4f2cdde9dcd9316fb3fb04dc324.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Yamaha Fz6 Scrambler Buscar Con Google Motorsiklet Kask Motosikletler">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Yamaha Fz6 Scrambler Buscar Con Google Motorsiklet Kask Motosikletler.jpg">Download</button>
 					</div>
+										<h3 class="h6">Yamaha Fz6 Scrambler Buscar Con Google Motorsiklet Kask Motosikletler</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/EU8FJaUXkAAbqwJ.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/EU8FJaUXkAAbqwJ.jpg" alt="Sumo Rubber On Twitter Yamaha Fz6 Red Cheek By North East Custom Https T Co Ywhsvvuu9f Fz6 Yamahacaferacer Caferacer Customyamaha Northeastcustom Https T Co Oo7q9kokes" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sumo Rubber On Twitter Yamaha Fz6 Red Cheek By North East Custom Https T Co Ywhsvvuu9f Fz6 Yamahacaferacer Caferacer Customyamaha Northeastcustom Https T Co Oo7q9kokes</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/l6iBbzb0DC8/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/l6iBbzb0DC8/maxresdefault.jpg" alt="Yamaha Fz6 Modificada Cafe Racer Neo Cafe Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz6 Modificada Cafe Racer Neo Cafe Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/06/12/15/55/yamaha-fz-yamaha-fz6-fazer-caferacer-moto-e-scooter-usato-in-vendita-piacenza_101928899.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/06/12/15/55/yamaha-fz-yamaha-fz6-fazer-caferacer-moto-e-scooter-usato-in-vendita-piacenza_101928899.jpg" alt="Yamaha Yamaha Fz6 Fazer Cafe Racer Moto E Scooter Usato In Vendita Piacenza Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha Fz6 Fazer Cafe Racer Moto E Scooter Usato In Vendita Piacenza Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/85/05/b8/8505b8d155aa9edd010e2383b21d0adf.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/85/05/b8/8505b8d155aa9edd010e2383b21d0adf.jpg" alt="Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Gentlebikers For The Best Motor Cafe Racer Cafe Racer Motorcycle Cafe Racer Bikes" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Do You Like This One Yamaha Fz6 By Apex 7 Follow Us Gentlebikers For The Best Motor Cafe Racer Cafe Racer Motorcycle Cafe Racer Bikes</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d8/c8/34/d8c8340a57071a42db814ea26bb17463.png" data-lightbox="roadtrip" data-title="Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 In 2020 Cafe Racer Yamaha Cafe Racer Cafe Racer Magazine">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d8/c8/34/d8c8340a57071a42db814ea26bb17463.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 In 2020 Cafe Racer Yamaha Cafe Racer Cafe Racer Magazine">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 In 2020 Cafe Racer Yamaha Cafe Racer Cafe Racer Magazine.jpg">Download</button>
 					</div>
+										<h3 class="h6">Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 In 2020 Cafe Racer Yamaha Cafe Racer Cafe Racer Magazine</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-5.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-5.jpg" alt="Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-8.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-8.jpg" alt="Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3.bp.blogspot.com/-TK67cM-7ed4/V7X44_82l5I/AAAAAAACbwc/q4nmRcNT7V0Z9-0DyCGPEC3CyfulScUrgCLcB/s1600/fz6%2Bcafe%2Bracer%2Bbad%2Bwinners%2B-010.JPG" target="_blank">
-							<img class="img-fluid" src="https://3.bp.blogspot.com/-TK67cM-7ed4/V7X44_82l5I/AAAAAAACbwc/q4nmRcNT7V0Z9-0DyCGPEC3CyfulScUrgCLcB/s1600/fz6%2Bcafe%2Bracer%2Bbad%2Bwinners%2B-010.JPG" alt="Cafe Racer Fz6 Bad Winners" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racer Fz6 Bad Winners</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5806.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5806.jpg" alt="Yamaha Xj Cafe Racer Eight Ball Gazzz Garage" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Xj Cafe Racer Eight Ball Gazzz Garage</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/69/ab/97/69ab97d0fda7625a03884ac410a48212.jpg" data-lightbox="roadtrip" data-title="Fazer Fzs 600 Monte En Cafe Racee Yamaha Cafe Racer Suzuki Cafe Racer Cafe Racer Honda">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/69/ab/97/69ab97d0fda7625a03884ac410a48212.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fazer Fzs 600 Monte En Cafe Racee Yamaha Cafe Racer Suzuki Cafe Racer Cafe Racer Honda">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Fazer Fzs 600 Monte En Cafe Racee Yamaha Cafe Racer Suzuki Cafe Racer Cafe Racer Honda.jpg">Download</button>
 					</div>
+										<h3 class="h6">Fazer Fzs 600 Monte En Cafe Racee Yamaha Cafe Racer Suzuki Cafe Racer Cafe Racer Honda</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.blessthisstuff.com/imagens/stuff/img_docs_chops_yamaha_virago.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.blessthisstuff.com/imagens/stuff/img_docs_chops_yamaha_virago.jpg" alt="Custom Yamaha Virago Cafe Racer By Docs Chops" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Custom Yamaha Virago Cafe Racer By Docs Chops</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.motoforzafairings.com/data/imgauto/2/0/yamaha_fzs_600_cafe_racer_motoforza_parts1.jpg.png" target="_blank">
-							<img class="img-fluid" src="https://www.motoforzafairings.com/data/imgauto/2/0/yamaha_fzs_600_cafe_racer_motoforza_parts1.jpg.png" alt="Uni Seat Cafe Racer Version 6 Motoforza" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Uni Seat Cafe Racer Version 6 Motoforza</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/617s7aOEXWL._AC_SY355_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/617s7aOEXWL._AC_SY355_.jpg" alt="Amazon Com Universal Black Motorcycle Aluminum Rearview Side Mirrors 7 8 Bar End For Cafe Racer Bobber Cruiser Scooter Black 1 Automotive" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Amazon Com Universal Black Motorcycle Aluminum Rearview Side Mirrors 7 8 Bar End For Cafe Racer Bobber Cruiser Scooter Black 1 Automotive</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://img.scgpix.com/listimg/img1_1116/15/img_5VctktlI8OxonFB_r.jpg" target="_blank">
-							<img class="img-fluid" src="http://img.scgpix.com/listimg/img1_1116/15/img_5VctktlI8OxonFB_r.jpg" alt="Honda Cbr 250 Cafe Racer Motorcycles For Sale" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Honda Cbr 250 Cafe Racer Motorcycles For Sale</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/3a/c9/8e/3ac98e8ce4656a521609954d82c76b3b.jpg" data-lightbox="roadtrip" data-title="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Yamaha Super Bikes Cafe Racer">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/3a/c9/8e/3ac98e8ce4656a521609954d82c76b3b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Yamaha Super Bikes Cafe Racer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Yamaha Super Bikes Cafe Racer.jpg">Download</button>
 					</div>
+										<h3 class="h6">Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Yamaha Super Bikes Cafe Racer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.imgur.com/v24pBIN.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.imgur.com/v24pBIN.jpg" alt="Awesome Honda Cb400 Cafe Racer 1600x1066 Imgur" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Awesome Honda Cb400 Cafe Racer 1600x1066 Imgur</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00409.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00409.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/JwoAAOSwBq9dscDz/$_84.JPG" target="_blank">
-							<img class="img-fluid" src="https://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/JwoAAOSwBq9dscDz/$_84.JPG" alt="Yamaha Fz6 Cafe Racer Ref Ls1522 Motos Yamaha 2ememain" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz6 Cafe Racer Ref Ls1522 Motos Yamaha 2ememain</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=fz1+cafe+racer&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=fz1+cafe+racer&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcst4il9xbsoe0sz3lpfsbzfbqaufrfnstczbfnl Bp3lmnwv8lp Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcst4il9xbsoe0sz3lpfsbzfbqaufrfnstczbfnl Bp3lmnwv8lp Usqp Cau</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/be/19/a2/be19a2f0d63e876c184f1c06d267f7f2.png" data-lightbox="roadtrip" data-title="Pin Na Nastence Domov">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/be/19/a2/be19a2f0d63e876c184f1c06d267f7f2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin Na Nastence Domov">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Pin Na Nastence Domov.jpg">Download</button>
 					</div>
+										<h3 class="h6">Pin Na Nastence Domov</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/lzLkYKSFxyY/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/lzLkYKSFxyY/maxresdefault.jpg" alt="New Yamaha Fz6 Cafe Racer New Yamaha Fz6 Red Cheek Custom By North East Custom Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>New Yamaha Fz6 Cafe Racer New Yamaha Fz6 Red Cheek Custom By North East Custom Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/bc/4c/70/bc4c705e26f6534da57226d4960205cd.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/bc/4c/70/bc4c705e26f6534da57226d4960205cd.jpg" alt="Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racers Of Instagramさんはinstagramを利用しています Apex 7 With His Yamaha Fz6 Racer Love The Stance Photo By Husk Cafe Racer Bikes Cafe Racer Style Cafe Racer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/232603120/sold-raphael-the-xv750-cafe-racer.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/232603120/sold-raphael-the-xv750-cafe-racer.jpg" alt="For Sale Raphael The Xv750 Caferacer Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>For Sale Raphael The Xv750 Caferacer Caferacerwebshop Com</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/236x/e5/e6/ac/e5e6ace5bf18b0b4b8ee6f44ff6a156c--yamaha-xsr--moto-yamaha.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/236x/e5/e6/ac/e5e6ace5bf18b0b4b8ee6f44ff6a156c--yamaha-xsr--moto-yamaha.jpg" alt="9 Best Fz6 Cafe Racer Images Yamaha Cafe Racer Motorcycle" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>9 Best Fz6 Cafe Racer Images Yamaha Cafe Racer Motorcycle</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cd/64/21/cd6421077b1bf43b12d4de62689b2fb7.jpg" data-lightbox="roadtrip" data-title="Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Custom Bikes">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cd/64/21/cd6421077b1bf43b12d4de62689b2fb7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Custom Bikes">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Custom Bikes.jpg">Download</button>
 					</div>
+										<h3 class="h6">Yamaha Cafe Racer Yamaha Cafe Racer Moto Bike Custom Bikes</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ae01.alicdn.com/kf/HTB199lZXhiH3KVjSZPfq6xBiVXaY/Motorcycle-Chain-Brush-Cleaner-Cover-Moto-For-yamaha-fz6-cafe-racer-ducati-multistrada-1200-benelli-trk.jpg_960x960.jpg" target="_blank">
-							<img class="img-fluid" src="https://ae01.alicdn.com/kf/HTB199lZXhiH3KVjSZPfq6xBiVXaY/Motorcycle-Chain-Brush-Cleaner-Cover-Moto-For-yamaha-fz6-cafe-racer-ducati-multistrada-1200-benelli-trk.jpg_960x960.jpg" alt="Motorcycle Chain Brush Cleaner Cover Moto For Yamaha Fz6 Cafe Racer Ducati Multistrada 1200 Benelli Trk 502 Yamaha Raptor 700 Aliexpress" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Motorcycle Chain Brush Cleaner Cover Moto For Yamaha Fz6 Cafe Racer Ducati Multistrada 1200 Benelli Trk 502 Yamaha Raptor 700 Aliexpress</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lorddrakekustoms.com/wp-content/uploads/2019/04/lord-drake-kustoms-bmw-cafe-racer-4-1024x683.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.lorddrakekustoms.com/wp-content/uploads/2019/04/lord-drake-kustoms-bmw-cafe-racer-4-1024x683.jpg" alt="Best Custom Cafe Racer And Scrambler Motorcycles Of 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Best Custom Cafe Racer And Scrambler Motorcycles Of 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-iMgdsoGl4XE/XJIUs8R7LYI/AAAAAAADKXE/pW9oAFlDc7s5SNn_kQZZJyBUZ1q35Li4wCLcBGAs/s1600/wr%2B450-008.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-iMgdsoGl4XE/XJIUs8R7LYI/AAAAAAADKXE/pW9oAFlDc7s5SNn_kQZZJyBUZ1q35Li4wCLcBGAs/s1600/wr%2B450-008.jpg" alt="Le Motographe Wr450f Skeleton V2 Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Le Motographe Wr450f Skeleton V2 Rocketgarage Cafe Racer Magazine</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/323748071/cracer-bolt-on-cafe-racer-kit-for-royal-enfield-co.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/323748071/cracer-bolt-on-cafe-racer-kit-for-royal-enfield-co.jpg" alt="Bolt On Cafe Racer Kit For Royal Enfield Continental Gt 650 Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bolt On Cafe Racer Kit For Royal Enfield Continental Gt 650 Caferacerwebshop Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/40/0b/2d/400b2d35329cd48b5dabf75f51d279b7.jpg" data-lightbox="roadtrip" data-title="Yamaha Fz6 Streetfighter Yamaha Fz6 Motocicletas Personalizadas Motos">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/40/0b/2d/400b2d35329cd48b5dabf75f51d279b7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Yamaha Fz6 Streetfighter Yamaha Fz6 Motocicletas Personalizadas Motos">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Yamaha Fz6 Streetfighter Yamaha Fz6 Motocicletas Personalizadas Motos.jpg">Download</button>
 					</div>
+										<h3 class="h6">Yamaha Fz6 Streetfighter Yamaha Fz6 Motocicletas Personalizadas Motos</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/323671327/cracer-bolt-on-cafe-racer-kit-for-yamaha-xsr700.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/323671327/cracer-bolt-on-cafe-racer-kit-for-yamaha-xsr700.jpg" alt="Bolt On Cafe Racer Kit For Yamaha Xsr700 Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bolt On Cafe Racer Kit For Yamaha Xsr700 Caferacerwebshop Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/10/14/00/04/yamaha-fz-yamaha-fazer-600-cafe-racer_107999665.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/10/14/00/04/yamaha-fz-yamaha-fazer-600-cafe-racer_107999665.jpg" alt="Yamaha Yamaha Fazer 600 Cafe Racer Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha Fazer 600 Cafe Racer Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://kickstart.bikeexif.com/wp-content/uploads/2014/03/building-a-cafe-racer-xs650-2-625x625.jpg" target="_blank">
-							<img class="img-fluid" src="https://kickstart.bikeexif.com/wp-content/uploads/2014/03/building-a-cafe-racer-xs650-2-625x625.jpg" alt="12 Steps To Building A Cafe Racer Bike Exif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>12 Steps To Building A Cafe Racer Bike Exif</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/a5/5c/60/a55c60dc4154c58ad244897dd3926c58.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/a5/5c/60/a55c60dc4154c58ad244897dd3926c58.jpg" alt="Yamaha Fz6 Cafe Racer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz6 Cafe Racer</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/37/c2/9c/37c29ce255074481fdbdf9aeaa610a2e.jpg" data-lightbox="roadtrip" data-title="Fz6 Single Headlight Conversion Bike Rider Cafe Racer Yamaha">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/37/c2/9c/37c29ce255074481fdbdf9aeaa610a2e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fz6 Single Headlight Conversion Bike Rider Cafe Racer Yamaha">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = 'Ads';" data-url="https://zqvee2re50mr.com/f92qg63vc?key=ac20300e264cf09199ec3eda378fd7bb" data-title="Fz6 Single Headlight Conversion Bike Rider Cafe Racer Yamaha.jpg">Download</button>
 					</div>
+										<h3 class="h6">Fz6 Single Headlight Conversion Bike Rider Cafe Racer Yamaha</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.picclickimg.com/d/l400/pict/263843755470_/Yamaha-fz6-cafe-racer-tracker-not-supermoto.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.picclickimg.com/d/l400/pict/263843755470_/Yamaha-fz6-cafe-racer-tracker-not-supermoto.jpg" alt="Yamaha Fz6 Cafe Racer Tracker Not Supermoto Or Street Fighter Swap 2 050 01 Picclick Uk" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz6 Cafe Racer Tracker Not Supermoto Or Street Fighter Swap 2 050 01 Picclick Uk</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00423.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00423.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/07/21/00/05/yamaha-fz-yamaha-fazer-cafe-racer-total-black-1000cc-a-marsciano_103252649.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/07/21/00/05/yamaha-fz-yamaha-fazer-cafe-racer-total-black-1000cc-a-marsciano_103252649.jpg" alt="Yamaha Yamaha Fazer Cafe Racer Total Black 1000cc A Marsciano Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha Fazer Cafe Racer Total Black 1000cc A Marsciano Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.cozzoo.com/501124-large_default/motorcycle-mirrors-accessories-aluminum-7-8-handlebar-end-rear-view-mirror-for-yamaha-fz1-fz6-fz8-for-cafe-racer.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.cozzoo.com/501124-large_default/motorcycle-mirrors-accessories-aluminum-7-8-handlebar-end-rear-view-mirror-for-yamaha-fz1-fz6-fz8-for-cafe-racer.jpg" alt="Motorcycle Mirrors Accessories Aluminum 7 8 Handlebar End Rear View Mirror For Yamaha Fz1 Fz6 Fz8 For Cafe Racer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Motorcycle Mirrors Accessories Aluminum 7 8 Handlebar End Rear View Mirror For Yamaha Fz1 Fz6 Fz8 For Cafe Racer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.caferacerworld.com/wp-content/uploads/2019/10/yamaha-fazer-scrambler-lord-drake-kustoms-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.caferacerworld.com/wp-content/uploads/2019/10/yamaha-fazer-scrambler-lord-drake-kustoms-1.jpg" alt="Street Tracker Archivos Cafe Racer World" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Street Tracker Archivos Cafe Racer World</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.2040-motos.com/_content/cars/images/33/1833/001.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.2040-motos.com/_content/cars/images/33/1833/001.jpg" alt="Buy Yamaha Fz750r Custom Cafe Racer New Tires Brakes On 2040 Motos" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buy Yamaha Fz750r Custom Cafe Racer New Tires Brakes On 2040 Motos</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-Xm0sXDie1B8/Va9s_7xzLFI/AAAAAAACF88/OhUgyJnD0mI/s1600/2-stroke-attack-born-free-007.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-Xm0sXDie1B8/Va9s_7xzLFI/AAAAAAACF88/OhUgyJnD0mI/s1600/2-stroke-attack-born-free-007.jpg" alt="2 Stroke Attack Born Free 7 Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 Stroke Attack Born Free 7 Rocketgarage Cafe Racer Magazine</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3.bp.blogspot.com/-tejO3jT_bL4/V0yN1HSB1XI/AAAAAAACW6E/MKqzTbjyUCYpnovRyueFRwhcA3fzIht8wCLcB/s1600/fazer.jpg" target="_blank">
-							<img class="img-fluid" src="https://3.bp.blogspot.com/-tejO3jT_bL4/V0yN1HSB1XI/AAAAAAACW6E/MKqzTbjyUCYpnovRyueFRwhcA3fzIht8wCLcB/s1600/fazer.jpg" alt="Fzs Cafe Racer Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fzs Cafe Racer Rocketgarage Cafe Racer Magazine</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.webshopapp.com/shops/38604/files/302521797/bmw-k100-caferacer-blue.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.webshopapp.com/shops/38604/files/302521797/bmw-k100-caferacer-blue.jpg" alt="Bmw K100 Caferacer Blue Caferacerwebshop Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bmw K100 Caferacer Blue Caferacerwebshop Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/a1/59/d6/a159d688ffdf7c2b70df10ee5fdfd83e.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/a1/59/d6/a159d688ffdf7c2b70df10ee5fdfd83e.jpg" alt="Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fazer Fz6 Yamaha Cafe Racer Cafe Racer Racer Moped</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.bikefinder.co.za/images/2004-fazer-cafe-racer.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.bikefinder.co.za/images/2004-fazer-cafe-racer.jpg" alt="For Sale Mc World Cape Town" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>For Sale Mc World Cape Town</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cloud.leparking-moto.fr/2019/09/19/00/14/yamaha-fz-cafe-racer-600-fazer_106673170.jpg" target="_blank">
-							<img class="img-fluid" src="https://cloud.leparking-moto.fr/2019/09/19/00/14/yamaha-fz-cafe-racer-600-fazer_106673170.jpg" alt="Yamaha Cafe Racer 600 Fazer Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Cafe Racer 600 Fazer Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://i.imgur.com/36lWp.jpg" target="_blank">
-							<img class="img-fluid" src="http://i.imgur.com/36lWp.jpg" alt="Sweet Looking Custom Yamaha Xjr1400 Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sweet Looking Custom Yamaha Xjr1400 Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/ZsHG2jfyFyM/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/ZsHG2jfyFyM/maxresdefault.jpg" alt="Fz6 Personalizada Estilo Cafe Racer Tikinho Lima Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fz6 Personalizada Estilo Cafe Racer Tikinho Lima Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=fazer+cafe+racer&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=fazer+cafe+racer&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsry6ku485qvrn1ndball2cmcxog0bfkuuz0xlztwc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsry6ku485qvrn1ndball2cmcxog0bfkuuz0xlztwc Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scontent-sin6-2.cdninstagram.com/v/t51.2885-15/e35/110055168_169689917895598_2880989133599668983_n.jpg?_nc_ht=scontent-sin6-2.cdninstagram.com&amp;_nc_cat=110&amp;_nc_ohc=mXZauYgwe70AX86ioJR&amp;oh=247c0332ea59102237a02f13846c50f1&amp;oe=5F49D38B" target="_blank">
-							<img class="img-fluid" src="https://scontent-sin6-2.cdninstagram.com/v/t51.2885-15/e35/110055168_169689917895598_2880989133599668983_n.jpg?_nc_ht=scontent-sin6-2.cdninstagram.com&amp;_nc_cat=110&amp;_nc_ohc=mXZauYgwe70AX86ioJR&amp;oh=247c0332ea59102237a02f13846c50f1&amp;oe=5F49D38B" alt="The Smokey Dogs Swipe Which One Do You Like The Most Honda Cb750 Bmw Gs1150 Yamaha Fz6 Honda Cb750f Yamaha Genesis Honda Cx500 Yamaha Maxim 750" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Smokey Dogs Swipe Which One Do You Like The Most Honda Cb750 Bmw Gs1150 Yamaha Fz6 Honda Cb750f Yamaha Genesis Honda Cx500 Yamaha Maxim 750</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00442.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00442.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=yamaha+fz6+scrambler&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=yamaha+fz6+scrambler&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqgdwuuzs5lnua Bjkyz5xum9t5ms0i8hyzvwa9ilgode7yxrox Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqgdwuuzs5lnua Bjkyz5xum9t5ms0i8hyzvwa9ilgode7yxrox Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/3c/8f/27/3c8f275d2466d4a235de8ce7316d64ce.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/3c/8f/27/3c8f275d2466d4a235de8ce7316d64ce.jpg" alt="Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Fz" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Custom 2006 Yamaha Fz6 Streetfighter For Sale On 2040 Motos Street Fighter Motorcycle Yamaha Yamaha Fz</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/RA1pdiskNRo/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/RA1pdiskNRo/maxresdefault.jpg" alt="Yamaha Archeus Cafe Racer Based On Fazer 600 Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Archeus Cafe Racer Based On Fazer 600 Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://databikes.com/imgs/a/d/v/d/y/voxan__cafe_racer_2005_1_lgw.jpg" target="_blank">
-							<img class="img-fluid" src="http://databikes.com/imgs/a/d/v/d/y/voxan__cafe_racer_2005_1_lgw.jpg" alt="2005 Year Motorcycles With Pictures Page 50" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2005 Year Motorcycles With Pictures Page 50</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://kickstart.bikeexif.com/wp-content/uploads/2017/01/custom-yamaha-fzs600-fazer-5.jpg" target="_blank">
-							<img class="img-fluid" src="https://kickstart.bikeexif.com/wp-content/uploads/2017/01/custom-yamaha-fzs600-fazer-5.jpg" alt="Major Fazer Bad Winners Amps Up The Yamaha Fzs600 Bike Exif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Major Fazer Bad Winners Amps Up The Yamaha Fzs600 Bike Exif</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.motoforzafairings.com/data/imgauto/2/0/yamaha_fzs_600_cafe_racer_motoforza_parts.jpg.png" target="_blank">
-							<img class="img-fluid" src="https://www.motoforzafairings.com/data/imgauto/2/0/yamaha_fzs_600_cafe_racer_motoforza_parts.jpg.png" alt="Uni Seat Cafe Racer Version 6 Motoforza" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Uni Seat Cafe Racer Version 6 Motoforza</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/HSM7yQYe8qc/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/HSM7yQYe8qc/hqdefault.jpg" alt="1998 Yamaha Fazer 600 Street Fighter Cafe Racer Conversion Part 1 Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1998 Yamaha Fazer 600 Street Fighter Cafe Racer Conversion Part 1 Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://kickstart.bikeexif.com/wp-content/uploads/2016/09/north-east-custom.jpg" target="_blank">
-							<img class="img-fluid" src="https://kickstart.bikeexif.com/wp-content/uploads/2016/09/north-east-custom.jpg" alt="Retro Modern An Italian Spin On Japanese Sport Bikes Bike Exif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Retro Modern An Italian Spin On Japanese Sport Bikes Bike Exif</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/08/14/00/02/yamaha-fz-toffe-yamaha-fzs600-brat-style-cafe-racer-2003_104368937.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/08/14/00/02/yamaha-fz-toffe-yamaha-fzs600-brat-style-cafe-racer-2003_104368937.jpg" alt="Yamaha Toffe Yamaha Fzs600 Brat Style Cafe Racer 2003 Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Toffe Yamaha Fzs600 Brat Style Cafe Racer 2003 Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/fa/d8/fe/fad8fe98954226bd94e6d50360060b43.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/fa/d8/fe/fad8fe98954226bd94e6d50360060b43.jpg" alt="Gefallt 532 Mal 11 Kommentare Two Wheels Caferacers Two Wheels Caferacers Auf Instagram Before Or After In 2020 Yamaha Cafe Racer Motorrad Cafe Racer Tank" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Gefallt 532 Mal 11 Kommentare Two Wheels Caferacers Two Wheels Caferacers Auf Instagram Before Or After In 2020 Yamaha Cafe Racer Motorrad Cafe Racer Tank</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=yamaha+cafe+racer&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=yamaha+cafe+racer&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctpfl2agj52yg Of4m0fpxl Aztzgb5yshgesb3qtili G1uq7s Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctpfl2agj52yg Of4m0fpxl Aztzgb5yshgesb3qtili G1uq7s Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00436.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/DSC00436.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ae01.alicdn.com/kf/HTB1tywidu3tHKVjSZSgq6x4QFXaU/BIKINGBOY-Universal-Cafe-Racer-Seat-Frame-Hoop-Brat-Loop-for-Honda-CB-Suzuki-GS-Yamaha-XS.jpg_960x960.jpg" target="_blank">
-							<img class="img-fluid" src="https://ae01.alicdn.com/kf/HTB1tywidu3tHKVjSZSgq6x4QFXaU/BIKINGBOY-Universal-Cafe-Racer-Seat-Frame-Hoop-Brat-Loop-for-Honda-CB-Suzuki-GS-Yamaha-XS.jpg_960x960.jpg" alt="Bikingboy Universal Cafe Racer Seat Frame Hoop Brat Loop For Honda Cb Suzuki Gs Yamaha Xs Large Cc Classic Custom Aliexpress" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bikingboy Universal Cafe Racer Seat Frame Hoop Brat Loop For Honda Cb Suzuki Gs Yamaha Xs Large Cc Classic Custom Aliexpress</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3.bp.blogspot.com/--BvaBKW3__Q/V0yN0lKKYOI/AAAAAAACW58/4y_qt3hcRFAqdJCIrHS9x6WHRbMnYYoQQCLcB/s1600/fazer-005.jpg" target="_blank">
-							<img class="img-fluid" src="https://3.bp.blogspot.com/--BvaBKW3__Q/V0yN0lKKYOI/AAAAAAACW58/4y_qt3hcRFAqdJCIrHS9x6WHRbMnYYoQQCLcB/s1600/fazer-005.jpg" alt="Fzs Cafe Racer Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fzs Cafe Racer Rocketgarage Cafe Racer Magazine</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3.bp.blogspot.com/-FOyFUpBrx3k/WjQ-39zSxqI/AAAAAAAC0KM/DOp0FDexeKAS_DnkIdYCG4HZM3dNY6gvACLcBGAs/s640/Greg%2BHageman-005.jpg" target="_blank">
-							<img class="img-fluid" src="https://3.bp.blogspot.com/-FOyFUpBrx3k/WjQ-39zSxqI/AAAAAAAC0KM/DOp0FDexeKAS_DnkIdYCG4HZM3dNY6gvACLcBGAs/s640/Greg%2BHageman-005.jpg" alt="Xs650 Xsr700 Fast Father Faster Son By Greg Hageman Rocketgarage Cafe Racer Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Xs650 Xsr700 Fast Father Faster Son By Greg Hageman Rocketgarage Cafe Racer Magazine</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/12/25/17/01/yamaha-fz-yamaha-fazer-600-cafe-racer-custom_111480851.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2019/12/25/17/01/yamaha-fz-yamaha-fazer-600-cafe-racer-custom_111480851.jpg" alt="Yamaha Yamaha Fazer 600 Cafe Racer Custom Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Yamaha Fazer 600 Cafe Racer Custom Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cloud.leparking-moto.fr/2019/08/14/17/01/yamaha-fz-cafe-racer-yamaha-600-fazer_104417519.jpg" target="_blank">
-							<img class="img-fluid" src="https://cloud.leparking-moto.fr/2019/08/14/17/01/yamaha-fz-cafe-racer-yamaha-600-fazer_104417519.jpg" alt="Yamaha Cafe Racer Yamaha 600 Fazer Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Cafe Racer Yamaha 600 Fazer Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn-2.returnofthecaferacers.com/wp-content/uploads/2020/01/crk-yamaha-fazer-0.jpg" alt="Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racer Kits Yamaha Fazer Return Of The Cafe Racers</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://immagini.mondocustom.it/media/80624/3.jpg" target="_blank">
-							<img class="img-fluid" src="https://immagini.mondocustom.it/media/80624/3.jpg" alt="Yamaha Fazer Fz6 Cafe Racer 80624 Mondocustom It" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fazer Fz6 Cafe Racer 80624 Mondocustom It</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/Fazer-2.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.smokedgarage.com.au/wp-content/uploads/2017/03/Fazer-2.jpg" alt="Smoked Garage The Ca Fazer Fzr600" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Smoked Garage The Ca Fazer Fzr600</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ebayimg.com/images/g/JT8AAOSwWR5ckwn1/s-l300.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ebayimg.com/images/g/JT8AAOSwWR5ckwn1/s-l300.jpg" alt="7 8 22mm Motorcycle Handlebar End Mirrors Rearview Universal For Cafe Racer Sc Ebay" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 8 22mm Motorcycle Handlebar End Mirrors Rearview Universal For Cafe Racer Sc Ebay</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.blessthisstuff.com/imagens/stuff/img_docs_chops_yamaha_virago_2.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.blessthisstuff.com/imagens/stuff/img_docs_chops_yamaha_virago_2.jpg" alt="Custom Yamaha Virago Cafe Racer By Docs Chops" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Custom Yamaha Virago Cafe Racer By Docs Chops</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/2jmuyNPDvd4/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/2jmuyNPDvd4/hqdefault.jpg" alt="Yamaha Fz6 Fazer Cafe Racer By Lucky Custom Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz6 Fazer Cafe Racer By Lucky Custom Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ae01.alicdn.com/kf/HTB1rYD9ax2rK1RkSnhJq6ykdpXay/Cafe-racer-Headlight-LED-spot-Fog-Light-Assembly-6000K-Lamp-motorcycle-for-yamaha-ybr-125-aerox.jpg" target="_blank">
-							<img class="img-fluid" src="https://ae01.alicdn.com/kf/HTB1rYD9ax2rK1RkSnhJq6ykdpXay/Cafe-racer-Headlight-LED-spot-Fog-Light-Assembly-6000K-Lamp-motorcycle-for-yamaha-ybr-125-aerox.jpg" alt="Cafe Racer Headlight Led Spot Fog Light Assembly 6000k Lamp Motorcycle For Yamaha Ybr 125 Aerox Ttr 250 Tdm 900 Fazer Fz6 Mt 10 Aliexpress" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cafe Racer Headlight Led Spot Fog Light Assembly 6000k Lamp Motorcycle For Yamaha Ybr 125 Aerox Ttr 250 Tdm 900 Fazer Fz6 Mt 10 Aliexpress</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://img.scgpix.com/listimg/img1_0116/26/img_G63udBifFz.jpg" target="_blank">
-							<img class="img-fluid" src="http://img.scgpix.com/listimg/img1_0116/26/img_G63udBifFz.jpg" alt="Yamaha Cafe Racer Motorcycles For Sale" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Cafe Racer Motorcycles For Sale</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-fGU7DLhUB6g/XMU6v9uGxqI/AAAAAAAABO0/qlnri60-Argf_A-p7UxSBQvJ-IFiBMmCQCLcBGAs/s1600/Yamaha-FZ1-Fazer-Cafe-Racer-Mod-By-Hangar-73.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-fGU7DLhUB6g/XMU6v9uGxqI/AAAAAAAABO0/qlnri60-Argf_A-p7UxSBQvJ-IFiBMmCQCLcBGAs/s1600/Yamaha-FZ1-Fazer-Cafe-Racer-Mod-By-Hangar-73.jpg" alt="Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 Yamaha Old Bikes List" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Fz1 Fazer Cafe Racer Mod By Hangar 73 Yamaha Old Bikes List</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.imgur.com/IglE2gn.png" target="_blank">
-							<img class="img-fluid" src="https://i.imgur.com/IglE2gn.png" alt="Triumph Speed Triple Cafe Racer Imgur" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Triumph Speed Triple Cafe Racer Imgur</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.xjr-tuning.com/components/com_virtuemart/shop_image/product/b1cba012a0c7f1f3cf9f4dba6b79da4e.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.xjr-tuning.com/components/com_virtuemart/shop_image/product/b1cba012a0c7f1f3cf9f4dba6b79da4e.jpg" alt="Klaus Goerz Motorradteile Und Motorradzubehor Fur Sportler Supersportler Und Naked Bikes Cafe Racer Engine Cover 3 D" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Klaus Goerz Motorradteile Und Motorradzubehor Fur Sportler Supersportler Und Naked Bikes Cafe Racer Engine Cover 3 D</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5789.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.gazzz-garage.com/wp-content/uploads/2014/12/IMG_5789.jpg" alt="Yamaha Xj Cafe Racer Eight Ball Gazzz Garage" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha Xj Cafe Racer Eight Ball Gazzz Garage</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2020/07/18/19/02/yamaha-fz-600-fazer-cafe-racer-jaune_137713631.jpg" target="_blank">
-							<img class="img-fluid" src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking-moto.fr/2020/07/18/19/02/yamaha-fz-600-fazer-cafe-racer-jaune_137713631.jpg" alt="Yamaha 600 Fazer Cafe Racer Used The Parking Motorcycles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yamaha 600 Fazer Cafe Racer Used The Parking Motorcycles</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Cafe Racer Customs</h3>
+						<h3 class="widget-title">Related Post</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="moose-motodesign-pair-of-xv920s-perfect-the-yamaha-virago-bobber-moto.html">Moose Motodesign Pair Of Xv920s Perfect The Yamaha Virago Bobber Moto</a></li>
-																	<li class="list-group-item"><a href="ktm-390-duke-cafe-racer.html">Ktm 390 Duke Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="yamaha-xv1100-cafe-racer.html">Yamaha Xv1100 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="honda-cafe-racer-125cc.html">Honda Cafe Racer 125cc</a></li>
-																	<li class="list-group-item"><a href="honda-tmx-cafe-racer.html">Honda Tmx Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="1982-honda-goldwing-cafe-racer.html">1982 Honda Goldwing Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="legend-cafe-racer.html">Legend Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="custom-yamaha-virago-cafe-racer.html">Custom Yamaha Virago Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="moto-guzzi-v7-cafe-racer.html">Moto Guzzi V7 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="yamaha-fzs-1000-fazer-cafe-racer.html">Yamaha Fzs 1000 Fazer Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="suzuki-gsx-750-f-1992-cafe-racer.html">Suzuki Gsx 750 F 1992 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="tvs-apache-180-cafe-racer.html">Tvs Apache 180 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="jawa-black-cafe-racer-price-in-india.html">Jawa Black Cafe Racer Price In India</a></li>
-																	<li class="list-group-item"><a href="moto-cafe-racer-2018.html">Moto Cafe Racer 2018</a></li>
-																	<li class="list-group-item"><a href="kawasaki-el-250-cafe-racer.html">Kawasaki El 250 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="honda-cbr-cafe-racer.html">Honda Cbr Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="cafe-racer-bmw-r-nine-t-custom.html">Cafe Racer Bmw R Nine T Custom</a></li>
-																	<li class="list-group-item"><a href="yamaha-r1-2000-cafe-racer.html">Yamaha R1 2000 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="xsr-155-cafe-racer-harga.html">Xsr 155 Cafe Racer Harga</a></li>
-																	<li class="list-group-item"><a href="tmax-cafe-racer.html">Tmax Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="honda-cb-1000-cafe-racer.html">Honda Cb 1000 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="bmw-k100-cafe-racer-exhaust.html">Bmw K100 Cafe Racer Exhaust</a></li>
-																	<li class="list-group-item"><a href="scrambler-cafe-racer-bike.html">Scrambler Cafe Racer Bike</a></li>
-																	<li class="list-group-item"><a href="cafe-racer-for-sale-australia.html">Cafe Racer For Sale Australia</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fz1-cafe-racer.html">Fz1 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="cb900-custom-cafe-racer.html">Cb900 Custom Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="modifikasi-cb-100-cafe-racer.html">Modifikasi Cb 100 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="used-cafe-racer-for-sale.html">Used Cafe Racer For Sale</a></li>
-																	<li class="list-group-item"><a href="honda-cb750-cafe-racer-monoshock.html">Honda Cb750 Cafe Racer Monoshock</a></li>
-																	<li class="list-group-item"><a href="cafe-racer-honda-cb750.html">Cafe Racer Honda Cb750</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kawasaki-ltd-750-cafe-racer.html">Kawasaki Ltd 750 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="1978-suzuki-gs550-cafe-racer.html">1978 Suzuki Gs550 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="honda-cmx-500-rebel-cafe-racer.html">Honda Cmx 500 Rebel Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="cafe-racer-mirrors-uk.html">Cafe Racer Mirrors Uk</a></li>
-																	<li class="list-group-item"><a href="multistrada-1000-ds-cafe-racer.html">Multistrada 1000 Ds Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="150cc-cafe-racer-bike-in-bd.html">150cc Cafe Racer Bike In Bd</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="customized-suzuki-gd-110-cafe-racer.html">Customized Suzuki Gd 110 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="gpx-legend-cafe-racer.html">Gpx Legend Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="dresda-triton-for-sale-uk.html">Dresda Triton For Sale Uk</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="honda-shadow-750-cafe-racer-kit.html">Honda Shadow 750 Cafe Racer Kit</a></li>
-																	<li class="list-group-item"><a href="wolf-125-cafe-racer.html">Wolf 125 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="yamaha-xj600n-cafe-racer.html">Yamaha Xj600n Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="vtr-250-cafe-racer.html">Vtr 250 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="k100rs-cafe-racer.html">K100rs Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="cafe-racer-bike-price-in-bd.html">Cafe Racer Bike Price In Bd</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="custom-z1000-cafe-racer.html">Custom Z1000 Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="kawasaki-w800-custom-cafe-racer.html">Kawasaki W800 Custom Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="1994-honda-cb1000-cafe-racer.html">1994 Honda Cb1000 Cafe Racer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="moto-guzzi-v35-ii-cafe-racer.html">Moto Guzzi V35 Ii Cafe Racer</a></li>
-																	<li class="list-group-item"><a href="rouser-220-cafe-racer.html">Rouser 220 Cafe Racer</a></li>
-								 
+													<li class="list-group-item"><a href="/xjr-1300-cafe-racer-kit.html">Xjr 1300 Cafe Racer Kit</a></li>
+													<li class="list-group-item"><a href="/personalizada-c70-modificada.html">Personalizada C70 Modificada</a></li>
+													<li class="list-group-item"><a href="/yamaha-sr-500-bobber.html">Yamaha Sr 500 Bobber</a></li>
+													<li class="list-group-item"><a href="/honda-nighthawk-250-bobber-kit.html">Honda Nighthawk 250 Bobber Kit</a></li>
+													<li class="list-group-item"><a href="/cb400f-cafe-racer-seat.html">Cb400f Cafe Racer Seat</a></li>
+													<li class="list-group-item"><a href="/vespa-spint-notte.html">Vespa Spint Notte</a></li>
+													<li class="list-group-item"><a href="/kawasaki-kz750-cafe-racer-kit.html">Kawasaki Kz750 Cafe Racer Kit</a></li>
+													<li class="list-group-item"><a href="/yamaha-fz6-cafe-racer.html">Yamaha Fz6 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/honda-cb-250-nighthawk-bobber.html">Honda Cb 250 Nighthawk Bobber</a></li>
+													<li class="list-group-item"><a href="/1982-honda-cb900-cafe-racer.html">1982 Honda Cb900 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1982-cb900-cafe-racer.html">1982 Cb900 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1980-honda-cb900-cafe-racer.html">1980 Honda Cb900 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/kawasaki-kz750-cafe-racer-parts.html">Kawasaki Kz750 Cafe Racer Parts</a></li>
+													<li class="list-group-item"><a href="/1981-honda-cb900-cafe-racer.html">1981 Honda Cb900 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/yamaha-xjr-1200-cafe-racer-kit.html">Yamaha Xjr 1200 Cafe Racer Kit</a></li>
+													<li class="list-group-item"><a href="/kawasaki-kz750-cafe-racer.html">Kawasaki Kz750 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1981-honda-cb900-custom-cafe-racer.html">1981 Honda Cb900 Custom Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1979-kawasaki-kz750-cafe-racer.html">1979 Kawasaki Kz750 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/kawasaki-vulcan-cafe-racer-kit.html">Kawasaki Vulcan Cafe Racer Kit</a></li>
+													<li class="list-group-item"><a href="/c70-modificada.html">C70 Modificada</a></li>
+													<li class="list-group-item"><a href="/honda-cb400f-cafe-racer.html">Honda Cb400f Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/yamaha-fz6-s2-cafe-racer.html">Yamaha Fz6 S2 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/moto-honda-c70-modificada.html">Moto Honda C70 Modificada</a></li>
+													<li class="list-group-item"><a href="/cb900-cafe-racer-kit.html">Cb900 Cafe Racer Kit</a></li>
+													<li class="list-group-item"><a href="/yamaha-sr-500-bobber-umbau.html">Yamaha Sr 500 Bobber Umbau</a></li>
+													<li class="list-group-item"><a href="/1975-honda-cb400f-cafe-racer.html">1975 Honda Cb400f Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1977-kawasaki-kz750-cafe-racer.html">1977 Kawasaki Kz750 Cafe Racer</a></li>
+													<li class="list-group-item"><a href="/1992-bmw-k100rs-for-sale.html">1992 Bmw K100rs For Sale</a></li>
+													<li class="list-group-item"><a href="/precio-honda-cargo-150-modificada.html">Precio Honda Cargo 150 Modificada</a></li>
+													<li class="list-group-item"><a href="/kymco-venox-250-for-sale.html">Kymco Venox 250 For Sale</a></li>
 						 
 						</ul>
 					</div>
@@ -1073,16 +449,17 @@ a{color: #f42966;text-decoration:none;}
 						<center><script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
 <div id="container-675cb813fbbeae53ce321baa240173f6"></div></center>
 					</div>
+					<div class="col-sm-12 widget">
+					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1104,13 +481,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4442801&101" alt="" border="0">
-<!-- Histats.com  END  -->
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
 
-<script type='text/javascript' src='//zqvee2re50mr.com/2d/3a/6a/2d3a6a25ba788570036b87c7cf340d44.js'></script>
-
-	</main>
-</body>
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>
